@@ -146,11 +146,40 @@ body {
 }
 
 .numbers {
+    margin-top: 1rem;
     display: flex;
+    gap: 1rem;
 }
 
 .boxes {
     display: flex;
+    gap: 1rem;
+}
+
+.boxes img {
+    width: 200px;
+}
+
+.num {
+    font-size: 36px;
+    color: var(--grayish_blue);
+}
+
+.num_title {
+    margin-block: .5rem;
+    font-size: 18px;
+    color: var(--very_dark_blue);
+    cursor: pointer;
+}
+
+.num_title:hover {
+    color: var(--soft_red);
+}
+
+.number_info p {
+    font-size: 16px;
+    color: var(--dark_grayish_blue);
+    line-height: 2;
 }
 
 footer {
