@@ -58,7 +58,7 @@ body {
 .container {
     max-width: 100%;
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .box1 {
@@ -73,6 +73,7 @@ body {
 
 .box1_info {
     display: flex;
+    gap: 1rem;
 }
 
 .box1_info h1 {
@@ -92,7 +93,7 @@ body {
 .description_info p {
     font-size: 16px;
     color: var(--dark_grayish_blue);
-    line-height: 1.4;
+    line-height: 2;
 }
 
 .btn {
@@ -101,13 +102,47 @@ body {
     font-family: inherit;
     border: none;
     font-size: 15px;
-    padding: 12px 36px;
+    padding: 12px 45px;
     font-weight: bold;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #000;
 }
 
 .box2 {
     height: auto;
+    background-color: var(--very_dark_blue);
+    padding: 1rem 2rem;
+    color: var(--off_white);
+}
+
+.box2_title {
+    font-size: 36px;
+    color: var(--soft_orange);
+    margin-top: 1rem;
+}
+
+.infos {
+    margin-block: 2rem;
+}
+
+.infos h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.infos h3:hover {
+    color: var(--soft_orange);
+}
+
+.infos p {
+    font-size: 16px;
+    color: var(--grayish_blue);
+    line-height: 1.8;
 }
 
 .numbers {
