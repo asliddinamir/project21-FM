@@ -12,7 +12,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    overflow-x: hidden;
 }
 
 body {
@@ -25,6 +24,7 @@ body {
     width: 100vw;
     font-size: 15px;
     padding: 5rem 9rem;
+    overflow-x: hidden;
 }
 
 .header {
@@ -314,5 +314,26 @@ footer a {
         cursor: pointer;
         transition: color 0.3s;
         z-index: 3;
+    }
+
+    .box1_info h1 {
+        font-size: 48px;
+    }
+
+    .boxes img {
+        max-width: 120px;
+        height: auto;
+    }
+}
+
+@media(max-width:511px) {
+    .hero_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .boxes img {
+        width: 100px;
+        height: 120px;
     }
 }
